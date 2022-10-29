@@ -1,0 +1,23 @@
+Detecting compiler hash for triplet x64-windows...
+-- Setting "HTTP_PROXY" environment variables to "localhost:7769".
+-- Setting "HTTPS_PROXY" environment variables to "localhost:7769".
+All requested packages are currently installed.
+Restored 0 package(s) from C:\Users\mfong\AppData\Local\vcpkg\archives in 169.3 us. Use --debug to see more details.
+
+Total elapsed time: 3.389 s
+
+glad provides CMake targets:
+    # this is heuristically generated, and may not be correct
+    find_package(glad CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glad::glad)
+
+glfw3 provides CMake targets:
+    # this is heuristically generated, and may not be correct
+    find_package(glfw3 CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE glfw)
+
+imgui provides CMake targets:
+    # this is heuristically generated, and may not be correct
+    find_package(imgui CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE imgui::imgui)
+
